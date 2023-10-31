@@ -5,6 +5,8 @@ let customerContainer = document.querySelector('.container');
 // let customer = customers[0]   //replace
 custom(customers);
 
+let customerCard = document.createElement("div")
+customerContainer.appendChild(customerCard);
 
 let customerEmail = document.createElement('div')
 customerContainer.appendChild(customerCard);
@@ -25,8 +27,6 @@ function custom(customers){  //when rid of line 5 chanage customer to (s) after 
 console.log(customer);    customerContainer.appendChild(customerCard);
 
    
-    let customerCard = document.createElement("div")
-   customerContainer.appendChild(customerCard);
 
 //    let customerEmail = document.createElement('div')
 //    customerContainer.appendChild(customerCard);
